@@ -4,7 +4,7 @@ import styles from "./Sidebar.module.css";
 function Sidebar() {
   return (
     <section className={styles.sideBar}>
-      <div className={styles.title}>DiaCheck</div>
+      <h1>DiaCheck</h1>
 
       <ul>
         <li>
