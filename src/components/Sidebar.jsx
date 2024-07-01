@@ -4,6 +4,8 @@ import styles from "./Sidebar.module.css";
 function Sidebar() {
   return (
     <section className={styles.sideBar}>
+      <div className={styles.title}>DiaCheck</div>
+
       <ul>
         <li>
           <NavLink to="new-analysis">New Analysis</NavLink>
