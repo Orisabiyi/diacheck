@@ -7,12 +7,12 @@ function Sidebar() {
       <h1>DiaCheck</h1>
 
       <ul>
-        <li>
-          <NavLink to="new-analysis">New Analysis</NavLink>
-        </li>
-        <li>
-          <NavLink to="patient-record">View Patient Records</NavLink>
-        </li>
+        <NavLink to="new-analysis">
+          <li>New Analysis</li>
+        </NavLink>
+        <NavLink to="patient-record">
+          <li>View Patient Records</li>
+        </NavLink>
       </ul>
     </section>
   );
