@@ -7,13 +7,29 @@
 
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: stretch;
   gap: 6rem;
 }
 
 .sideBar h1 {
   font-weight: 900;
-  text-align: center;
   letter-spacing: 0.2rem;
   text-transform: uppercase;
+}
+
+.sideBar ul {
+  list-style: none;
+  width: 80%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 2rem;
+}
+
+.sideBar li {
+  padding: 1.5rem 2rem;
+  border: 1.5px solid #fff;
+  border-radius: 1rem;
+  cursor: pointer;
 }
