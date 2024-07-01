@@ -5,7 +5,10 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Dashboard />} />
+        <Route path="/" element={<Dashboard />}>
+          <Route path="new-analysis" element={<p>Analyze</p>} />
+          <Route path="patient-record" element={<p>records</p>} />
+        </Route>
       </Routes>
     </BrowserRouter>
   );
