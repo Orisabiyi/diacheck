@@ -1,8 +1,9 @@
+import styles from "./Dashboard.module.css";
 import Sidebar from "../components/Sidebar";
 
 function Dashboard() {
   return (
-    <header>
+    <header className={styles.header}>
       <Sidebar />
     </header>
   );
