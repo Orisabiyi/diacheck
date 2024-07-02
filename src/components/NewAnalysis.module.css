@@ -33,6 +33,11 @@
   border: 1.5px solid #6857ec;
 }
 
+.sectionAnalysis input::-webkit-inner-spin-button,
+.sectionAnalysis input::-webkit-outer-spin-button {
+  display: none;
+}
+
 .sectionAnalysis select {
   appearance: none;
   -webkit-appearance: none;
