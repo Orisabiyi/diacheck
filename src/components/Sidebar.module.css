@@ -44,11 +44,11 @@
 
 .sideBar span:nth-of-type(2) {
   flex: 0 0 auto;
-  width: 15%;
+  width: 12%;
 }
 
 .sideBar span img {
-  display: inline-block;
+  display: block;
   width: 100%;
   height: 100%;
 }
