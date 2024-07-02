@@ -25,7 +25,7 @@ function Sidebar() {
         </NavLink>
       </ul>
 
-      <div>
+      <div className={styles.img}>
         <img src="images/hospital.svg" alt="a hospital icon" />
       </div>
     </section>
