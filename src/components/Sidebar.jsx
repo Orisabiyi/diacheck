@@ -28,6 +28,10 @@ function Sidebar() {
       <div className={styles.img}>
         <img src="images/hospital.svg" alt="a hospital icon" />
       </div>
+
+      <footer className={styles.footer}>
+        <p>&copy;Copyright {new Date().getFullYear()} Diacheck</p>
+      </footer>
     </section>
   );
 }
