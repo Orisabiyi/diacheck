@@ -14,8 +14,8 @@
 
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  column-gap: 3rem;
-  row-gap: 2rem;
+  column-gap: 4rem;
+  row-gap: 1rem;
 }
 
 .sectionAnalysis label {
@@ -35,6 +35,11 @@
   background: unset;
   border-radius: 1rem;
   border: 1.5px solid #6857ec;
+}
+
+.sectionAnalysis input:not(:last-child),
+.sectionAnalysis select:not(:last-child) {
+  margin-bottom: 1.5rem;
 }
 
 .sectionAnalysis input::placeholder {
