@@ -3,10 +3,15 @@
   align-items: stretch;
   justify-content: flex-start;
   flex-direction: column;
-  gap: 4rem;
+  gap: 5rem;
 
   padding: 4rem;
   flex: 1;
+}
+
+.sectionAnalysis h2 {
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
 }
 
 .sectionAnalysis form {
@@ -38,7 +43,7 @@
 }
 
 .sectionAnalysis input:not(:last-child),
-.sectionAnalysis select:not(:last-child) {
+.customSelect:not(:last-of-type) {
   margin-bottom: 1.5rem;
 }
 
@@ -59,6 +64,7 @@
 
 .customSelect {
   position: relative;
+  width: 100%;
 }
 
 .customSelect::after {
@@ -109,7 +115,7 @@
   grid-row: 3 / 4;
 }
 
-.sectionAnalysis select:nth-of-type(1) {
+.customSelect:nth-of-type(1) {
   grid-column: 2 / 3;
   grid-row: 4 / 5;
 }
