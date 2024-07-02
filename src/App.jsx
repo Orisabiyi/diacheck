@@ -6,6 +6,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Dashboard />}>
+          <Route index element={<p>Analyze</p>} />
           <Route path="new-analysis" element={<p>Analyze</p>} />
           <Route path="patient-record" element={<p>records</p>} />
         </Route>

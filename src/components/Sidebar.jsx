@@ -8,7 +8,12 @@ function Sidebar() {
 
       <ul>
         <NavLink to="new-analysis">
-          <li>New Analysis</li>
+          <li>
+            <span>New Analysis</span>
+            <span>
+              <img src="images/plus.svg" alt="a plus icon" />
+            </span>
+          </li>
         </NavLink>
         <NavLink to="patient-record">
           <li>View Patient Records</li>
