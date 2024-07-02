@@ -6,6 +6,7 @@
   gap: 5rem;
 
   padding: 4rem;
+  color: #4c3bcf;
   flex: 1;
 }
 
@@ -26,7 +27,6 @@
 .sectionAnalysis label {
   font-family: inherit;
   font-weight: 600;
-  color: #4c3bcf;
 }
 
 .sectionAnalysis input,
@@ -48,7 +48,7 @@
 }
 
 .sectionAnalysis input::placeholder {
-  color: #9b8ff68f;
+  color: #9b8ff6;
 }
 
 .sectionAnalysis input::-webkit-inner-spin-button,
