@@ -15,25 +15,31 @@ function NewAnalysis() {
         <input type="" placeholder="Gender" />
 
         <label>Hypertension</label>
-        <select>
-          <option>True</option>
-          <option>False</option>
-        </select>
+        <div className={styles.customSelect}>
+          <select>
+            <option>True</option>
+            <option>False</option>
+          </select>
+        </div>
 
         <label>Smoking History</label>
-        <select>
-          <option>True</option>
-          <option>False</option>
-        </select>
+        <div className={styles.customSelect}>
+          <select>
+            <option>True</option>
+            <option>False</option>
+          </select>
+        </div>
 
         <label>BMI</label>
         <input type="number" placeholder="BMI" />
 
         <label>Glycated Hemoglobin</label>
-        <select>
-          <option>True</option>
-          <option>False</option>
-        </select>
+        <div className={styles.customSelect}>
+          <select>
+            <option>True</option>
+            <option>False</option>
+          </select>
+        </div>
 
         <label>Blood Glucose Level</label>
         <input type="number" placeholder="Blood Glucose Level" />

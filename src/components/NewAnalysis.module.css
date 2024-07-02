@@ -14,11 +14,48 @@
 
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 3rem;
+  column-gap: 3rem;
+  row-gap: 2rem;
+}
+
+.sectionAnalysis label {
+  font-family: inherit;
+}
+
+.sectionAnalysis input,
+.sectionAnalysis select {
+  font-family: inherit;
+  padding: 1.5rem 3rem;
+  outline: 0;
+
+  background: unset;
+  border-radius: 1rem;
+  border: 1.5px solid #6857ec;
+}
+
+.sectionAnalysis select {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 100%;
+}
+
+.customSelect {
+  position: relative;
+}
+
+.customSelect::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 2rem;
+
+  border-top: 0.5rem solid #4835d8;
+  border-left: 0.5rem solid transparent;
+  border-right: 0.5rem solid transparent;
 }
 
 /* Grid layout for element */
-
 .sectionAnalysis label:nth-of-type(1) {
   grid-column: 1 / 1;
   grid-row: 1 / 2;
