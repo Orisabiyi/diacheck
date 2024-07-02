@@ -43,6 +43,8 @@ function NewAnalysis() {
 
         <label>Blood Glucose Level</label>
         <input type="number" placeholder="Blood Glucose Level" />
+
+        <button type="submit">Analyze Patient Data</button>
       </form>
     </section>
   );
