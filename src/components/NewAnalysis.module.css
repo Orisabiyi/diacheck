@@ -16,3 +16,85 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 3rem;
 }
+
+/* Grid layout for element */
+
+.sectionAnalysis label:nth-of-type(1) {
+  grid-column: 1 / 1;
+  grid-row: 1 / 2;
+}
+
+.sectionAnalysis input:nth-of-type(1) {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+
+.sectionAnalysis label:nth-of-type(2) {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+
+.sectionAnalysis input:nth-of-type(2) {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+.sectionAnalysis label:nth-of-type(3) {
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+}
+
+.sectionAnalysis input:nth-of-type(3) {
+  grid-column: 1 / 2;
+  grid-row: 4 / 5;
+}
+
+.sectionAnalysis label:nth-of-type(4) {
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+}
+
+.sectionAnalysis select:nth-of-type(1) {
+  grid-column: 2 / 3;
+  grid-row: 4 / 5;
+}
+
+.sectionAnalysis label:nth-of-type(5) {
+  grid-column: 1 / 2;
+  grid-row: 5 / 6;
+}
+
+.sectionAnalysis select:nth-of-type(2) {
+  grid-column: 1 / 2;
+  grid-row: 6 / 7;
+}
+
+.sectionAnalysis label:nth-of-type(6) {
+  grid-column: 2 / 3;
+  grid-row: 5 / 6;
+}
+
+.sectionAnalysis input:nth-of-type(4) {
+  grid-column: 2 / 3;
+  grid-row: 6 / 7;
+}
+
+.sectionAnalysis label:nth-of-type(7) {
+  grid-column: 1 / 2;
+  grid-row: 7 / 8;
+}
+
+.sectionAnalysis select:nth-of-type(3) {
+  grid-column: 1 / 2;
+  grid-row: 8 / 9;
+}
+
+.sectionAnalysis label:nth-of-type(8) {
+  grid-column: 2 / 3;
+  grid-row: 7 / 8;
+}
+
+.sectionAnalysis input:nth-of-type(5) {
+  grid-column: 2 / 3;
+  grid-row: 8 / 9;
+}
