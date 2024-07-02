@@ -1,0 +1,18 @@
+.sectionAnalysis {
+  display: flex;
+  align-items: stretch;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 4rem;
+
+  padding: 4rem;
+  flex: 1;
+}
+
+.sectionAnalysis form {
+  flex: 0 0 auto;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+}
