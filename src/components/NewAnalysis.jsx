@@ -1,0 +1,5 @@
+function NewAnalysis() {
+  return <div>Hello World</div>;
+}
+
+export default NewAnalysis;
