@@ -24,6 +24,10 @@ function Sidebar() {
           </li>
         </NavLink>
       </ul>
+
+      <div>
+        <img src="images/hospital.svg" alt="a hospital icon" />
+      </div>
     </section>
   );
 }
