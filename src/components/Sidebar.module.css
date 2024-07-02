@@ -3,12 +3,12 @@
   color: #fff;
   flex: 0 0 auto;
   background: #4c3bcf;
-  padding: 4rem;
+  padding: 3rem 4rem;
 
   display: flex;
   flex-direction: column;
   align-items: stretch;
-  gap: 6rem;
+  gap: 5rem;
 }
 
 .sideBar h1 {
