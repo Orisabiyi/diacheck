@@ -16,7 +16,12 @@ function Sidebar() {
           </li>
         </NavLink>
         <NavLink to="patient-record">
-          <li>View Patient Records</li>
+          <li>
+            <span>View Patient Records</span>
+            <span>
+              <img src="images/record.svg" alt="a record icon" />
+            </span>
+          </li>
         </NavLink>
       </ul>
     </section>
