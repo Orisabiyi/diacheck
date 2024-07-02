@@ -32,4 +32,23 @@
   border: 1.5px solid #fff;
   border-radius: 1rem;
   cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sideBar span {
+  display: inline-block;
+}
+
+.sideBar span:nth-of-type(2) {
+  flex: 0 0 auto;
+  width: 15%;
+}
+
+.sideBar span img {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
 }
