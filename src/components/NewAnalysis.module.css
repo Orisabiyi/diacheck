@@ -20,17 +20,25 @@
 
 .sectionAnalysis label {
   font-family: inherit;
+  font-weight: 600;
+  color: #4c3bcf;
 }
 
 .sectionAnalysis input,
 .sectionAnalysis select {
-  font-family: inherit;
-  padding: 1.5rem 3rem;
   outline: 0;
+  color: #6857ec;
+  font-family: inherit;
+  font-weight: 500;
+  padding: 1.5rem 3rem;
 
   background: unset;
   border-radius: 1rem;
   border: 1.5px solid #6857ec;
+}
+
+.sectionAnalysis input::placeholder {
+  color: #9b8ff68f;
 }
 
 .sectionAnalysis input::-webkit-inner-spin-button,
