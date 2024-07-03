@@ -1,6 +1,10 @@
 import styles from "./NewAnalysis.module.css";
 
 function NewAnalysis() {
+  function handleSubmit(e) {
+    e.preventDefault();
+  }
+
   return (
     <section className={styles.sectionAnalysis}>
       <h2>Enter Patient Health Data</h2>
@@ -44,7 +48,9 @@ function NewAnalysis() {
         <label>Blood Glucose Level</label>
         <input type="number" placeholder="Blood Glucose Level" />
 
-        <button type="submit">Analyze Patient Data</button>
+        <button type="submit" onClick={handleSubmit}>
+          Analyze Patient Data
+        </button>
       </form>
     </section>
   );
