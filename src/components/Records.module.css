@@ -1,6 +1,7 @@
 .sectionRecord {
   flex: 1;
   padding: 3rem 2rem;
+  overflow-y: scroll;
 
   display: flex;
   align-items: stretch;
