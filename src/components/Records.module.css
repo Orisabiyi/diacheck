@@ -11,6 +11,12 @@
 
 .sectionRecord table {
   text-align: left;
+
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  gap: 2rem;
 }
 
 .sectionRecord tr {
