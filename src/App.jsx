@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Dashboard from "./pages/Dashboard";
 import NewAnalysis from "./components/NewAnalysis";
+import Records from "./components/Records";
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
         <Route path="/" element={<Dashboard />}>
           <Route index element={<NewAnalysis />} />
           <Route path="new-analysis" element={<NewAnalysis />} />
-          <Route path="patient-record" element={<p>records</p>} />
+          <Route path="patient-record" element={<Records />} />
         </Route>
       </Routes>
     </BrowserRouter>
